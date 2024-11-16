@@ -1,0 +1,7 @@
+{
+  "name": "Aventuratrai",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
