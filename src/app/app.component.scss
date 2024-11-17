@@ -1,0 +1,35 @@
+/* Barra de navegación y encabezados */
+header {
+    background-color: #2F4F4F; /* Verde Oscuro */
+    color: #F5F5DC; /* Beige */
+  }
+  
+  /* Botones principales y resaltados */
+  button {
+    background-color: #8FBC8F; /* Verde Musgo */
+    color: #F5F5DC; /* Beige */
+  }
+  
+  /* Tarjetas de información */
+  .card {
+    background-color: #98FB98; /* Verde Claro */
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Fondo general de la aplicación */
+  body {
+    background-color: #F5F5DC; /* Beige */
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Texto e iconos */
+  h1, h2, h3, p {
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Botones cuando son resaltados */
+  button:hover {
+    background-color: #8B4513; /* Marrón Tierra */
+    color: #F5F5DC; /* Beige */
+  }
+  

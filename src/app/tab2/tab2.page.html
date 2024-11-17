@@ -8,16 +8,17 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
   <div class="login-container">
-    <ion-icon name="person-circle-outline" size="large" class="user-icon"></ion-icon>
+    <!-- El tamaño ahora es controlado por CSS -->
+    <ion-icon name="person-circle-outline" class="user-icon"></ion-icon>
     <ion-item>
       <ion-label position="floating">Ingrese su email o nombre de usuario</ion-label>
-      <ion-input type="email"></ion-input>
+      <ion-input type="email" [(ngModel)]="email" required></ion-input>
     </ion-item>
     <ion-item>
       <ion-label position="floating">Ingrese su contraseña</ion-label>
-      <ion-input type="password"></ion-input>
+      <ion-input type="password" [(ngModel)]="password" required></ion-input>
     </ion-item>
-    <ion-button expand="block" color="primary">Registrarme</ion-button>
+    <ion-button expand="block" color="primary" (click)="register()">Registrarme</ion-button>
     <ion-text class="forgot-password">
       <a href="#">¿Olvidaste tu contraseña?</a>
     </ion-text>

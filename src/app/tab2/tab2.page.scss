@@ -1,14 +1,15 @@
 .login-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Ajustamos a flex-start para que se alinee hacia la parte superior */
     align-items: center;
     height: 100vh; /* Hace que el contenedor ocupe toda la altura de la vista */
-    padding: 0 1rem;
+    padding: 2rem 1rem; /* Aumentamos el padding superior para mover el contenido hacia abajo */
+    margin-top: -20px; /* Desplaza todo el contenido hacia arriba */
   }
   
   .user-icon {
-    font-size: 8rem; /* Tamaño del ícono de usuario */
+    font-size: 80px; /* Tamaño del ícono de usuario */
     margin-bottom: 2rem;
   }
   
@@ -28,5 +29,39 @@
     margin-top: 1rem;
     font-size: 0.9rem;
     text-align: center;
+  }
+  /* Barra de navegación y encabezados */
+header {
+    background-color: #2F4F4F; /* Verde Oscuro */
+    color: #F5F5DC; /* Beige */
+  }
+  
+  /* Botones principales y resaltados */
+  button {
+    background-color: #8FBC8F; /* Verde Musgo */
+    color: #F5F5DC; /* Beige */
+  }
+  
+  /* Tarjetas de información */
+  .card {
+    background-color: #98FB98; /* Verde Claro */
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Fondo general de la aplicación */
+  body {
+    background-color: #F5F5DC; /* Beige */
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Texto e iconos */
+  h1, h2, h3, p {
+    color: #8B4513; /* Marrón Tierra */
+  }
+  
+  /* Botones cuando son resaltados */
+  button:hover {
+    background-color: #8B4513; /* Marrón Tierra */
+    color: #F5F5DC; /* Beige */
   }
   

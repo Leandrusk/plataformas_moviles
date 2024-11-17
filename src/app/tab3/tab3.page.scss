@@ -1,15 +1,16 @@
 .login-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Alinea los elementos hacia la parte superior */
     align-items: center;
     height: 100vh; /* Hace que el contenedor ocupe toda la altura de la vista */
-    padding: 0 1rem;
+    padding: 2rem 1rem; /* Agrega espacio superior y lateral */
   }
   
   .user-icon {
-    font-size: 8rem; /* Tamaño del ícono de usuario */
-    margin-bottom: 2rem;
+    font-size: 80px; /* Tamaño del ícono de usuario ajustado */
+    margin-bottom: 2rem; /* Espacio debajo del ícono */
+    color: #3880ff; /* Cambia el color si lo deseas */
   }
   
   ion-item {
