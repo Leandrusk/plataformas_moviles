@@ -1,0 +1,48 @@
+.catalog-section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  ion-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  ion-toolbar {
+    --background: #fff;
+  }
+  
+  ion-footer ion-button {
+    margin: 0 0.5rem;
+  }
+  
+  /* Contenedor de cada sección */
+.catalog-section {
+    display: flex;
+    justify-content: space-between; /* Alinea el contenido a los lados */
+    align-items: center; /* Alinea verticalmente */
+    margin-bottom: 20px;
+  }
+  
+  /* Descripción de la ruta o zona */
+  .catalog-description {
+    flex: 1; /* Ocupa el espacio restante */
+    padding-right: 20px; /* Espacio entre la descripción y la imagen */
+  }
+  
+  /* Imagen */
+  .catalog-image {
+    flex: 1; /* Ocupa el espacio restante */
+    max-width: 50%; /* Limita el tamaño máximo de la imagen */
+    text-align: center;
+  }
+  
+  /* Ajustar imágenes si es necesario */
+  .catalog-image ion-img {
+    max-width: 100%;
+    height: auto;
+  }
+  

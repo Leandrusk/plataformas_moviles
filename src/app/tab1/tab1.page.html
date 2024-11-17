@@ -8,15 +8,10 @@
 
 <ion-content [fullscreen]="true" class="ion-padding">
   <div class="welcome-container">
-    <!-- Texto BIENVENIDO en forma de arcoíris con alineación -->
-    <svg viewBox="0 0 1200 400" class="rainbow-arc">
-      <path id="arc-path" d="M50,300 Q600,-100 1150,300" fill="transparent" />
-      <text>
-        <textPath href="#arc-path" startOffset="50%" text-anchor="middle">
-          BIENVENIDO
-        </textPath>
-      </text>
-    </svg>
+    <!-- Texto BIENVENIDO sin efecto de arcoíris -->
+    <div class="welcome-title">
+      BIENVENIDO
+    </div>
 
     <!-- Subtítulo de la aplicación -->
     <div class="app-title">
