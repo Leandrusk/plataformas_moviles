@@ -8,7 +8,16 @@
  * For more information on global stylesheets, visit the documentation:
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
-
+/* Estilo global para el fondo */
+body {
+    background-color: #000000; /* Color de fondo claro */
+  }
+  
+  /* También puedes agregar un color de fondo específico para el contenido */
+  #main-content {
+    background-color: #000000; /* Un color suave de fondo */
+  }
+  
 /* Core CSS required for Ionic components to work properly */
 @import "@ionic/angular/css/core.css";
 
