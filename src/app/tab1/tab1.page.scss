@@ -1,0 +1,54 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px; /* Espaciado entre elementos */
+    position: relative;
+  }
+  
+  .rainbow-arc {
+    width: 100%;
+    max-width: 1200px; /* Arco ajustado al ancho del contenedor */
+    margin-bottom: -20px; /* Reduce la distancia al subtítulo */
+  }
+  
+  .rainbow-arc text {
+    font-size: 4rem; /* Tamaño más pequeño para BIENVENIDO */
+    fill: url(#rainbow-gradient); /* Aplica gradiente de color */
+    font-weight: bold;
+  }
+  
+  .rainbow-arc defs {
+    position: absolute;
+  }
+  
+  .rainbow-arc text textPath {
+    letter-spacing: 3px; /* Ajuste del espaciado entre letras */
+  }
+  
+  .app-title {
+    font-size: 3rem; /* Tamaño más pequeño para AVENTURATRAIL */
+    color: #666;
+    margin-top: 40px; /* Ajuste de separación respecto al arco */
+  }
+  
+  .custom-button {
+    font-size: 1rem; /* Tamaño reducido para los botones */
+    margin: 8px 0;
+  }
+  
+  /* Gradiente de colores para el efecto de arcoíris */
+  .rainbow-arc {
+    position: relative;
+  }
+  
+  .rainbow-arc svg defs {
+    position: absolute;
+  }
+  
+  .rainbow-arc defs {
+    position: absolute;
+  }
+  

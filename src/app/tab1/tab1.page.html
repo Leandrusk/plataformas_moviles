@@ -1,17 +1,30 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>Nombre de la Página</ion-title>
+    <ion-title>
+      AVENTURATRAIL
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <!-- Contenido de la página -->
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Bienvenido</ion-card-title>
-    </ion-card-header>
-    <ion-card-content>
-      Este es el contenido principal de la página.
-    </ion-card-content>
-  </ion-card>
+<ion-content [fullscreen]="true" class="ion-padding">
+  <div class="welcome-container">
+    <!-- Texto BIENVENIDO en forma de arcoíris con alineación -->
+    <svg viewBox="0 0 1200 400" class="rainbow-arc">
+      <path id="arc-path" d="M50,300 Q600,-100 1150,300" fill="transparent" />
+      <text>
+        <textPath href="#arc-path" startOffset="50%" text-anchor="middle">
+          BIENVENIDO
+        </textPath>
+      </text>
+    </svg>
+
+    <!-- Subtítulo de la aplicación -->
+    <div class="app-title">
+      AVENTURATRAIL
+    </div>
+
+    <!-- Botones -->
+    <ion-button expand="block" color="primary" class="custom-button" href="/tabs/tab2">REGISTRARSE</ion-button>
+    <ion-button expand="block" color="secondary" class="custom-button" href="/tabs/tab3">INICIAR SESIÓN</ion-button>
+  </div>
 </ion-content>

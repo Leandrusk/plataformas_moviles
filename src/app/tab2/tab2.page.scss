@@ -1,0 +1,32 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la vista */
+    padding: 0 1rem;
+  }
+  
+  .user-icon {
+    font-size: 8rem; /* Tamaño del ícono de usuario */
+    margin-bottom: 2rem;
+  }
+  
+  ion-item {
+    width: 100%;
+    max-width: 400px; /* Ancho máximo de los campos de entrada */
+    margin-bottom: 1rem;
+  }
+  
+  ion-button {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 1rem;
+  }
+  
+  .forgot-password {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
