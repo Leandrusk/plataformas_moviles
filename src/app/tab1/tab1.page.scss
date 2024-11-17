@@ -77,9 +77,72 @@ ion-header {
     color: #8B4513; /* Marrón Tierra */
   }
   
-  /* Estilo para los botones al pasar el cursor por encima */
-  ion-button.custom-button:hover {
-    background-color: #8B4513; /* Marrón Tierra */
-    color: #F5F5DC; /* Beige */
-  }
-  
+
+  /* Colores de la paleta */
+:root {
+  --verde-bosque: #2E8B57; /* Verde Bosque */
+  --gris-roca: #B0C4DE;    /* Gris Roca */
+  --crema-natural: #FFF8DC; /* Crema Natural */
+  --verde-oliva-claro: #9ACD32; /* Verde Oliva Claro */
+  --tierra-oscura: #6B4423; /* Tierra Oscura */
+}
+
+/* Contenedor de bienvenida */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la pantalla */
+  background-color: var(--crema-natural); /* Fondo principal */
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Títulos */
+.welcome-title {
+  font-size: 2.5rem;
+  color: var(--verde-bosque);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  color: var(--tierra-oscura);
+  margin-bottom: 2rem;
+}
+
+/* Estilo de los botones */
+.custom-button {
+  background-color: var(--verde-oliva-claro);
+  color: var(--tierra-oscura);
+  border-radius: 50px; /* Botones redondeados */
+  padding: 0.75rem 2rem; /* Tamaño de los botones */
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem; /* Separación entre botones */
+  text-transform: uppercase;
+  width: 80%; /* Ajustar al ancho del contenido */
+  max-width: 300px; /* Máximo ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.custom-button:hover {
+  background-color: var(--verde-bosque); /* Cambio de color al pasar el ratón */
+  color: var(--crema-natural);
+}
+
+/* Botón secundario */
+.custom-button.secondary {
+  background-color: var(--gris-roca);
+  color: var(--tierra-oscura);
+}
+
+.custom-button.secondary:hover {
+  background-color: var(--tierra-oscura);
+  color: var(--crema-natural);
+}
